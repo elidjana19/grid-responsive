@@ -7,3 +7,22 @@ kerkuar mbi madhesite e ekraneve, bera qe te shfaqen 3, 2 dhe per ekranet e vogl
 si mobile 1 kolone me foto.
 Duke perdorur 1fr kujdesem qe kolonat te kene te njejtin width 
 pavaresisht ekranit.
+
+* Pa perdorur media queries
+Ne rastin e dyte per te bere responsive grid-in nuk kam perdorur media queries
+por .row perseri do te kete display:flex, nepemjet rreshtit 
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+Gridi nuk e ka te percaktuar sa kolona krijon ketu, ai krijon aq sa mund te vendosen tek hapesira available 
+pra ne baze te gjeresise te containerit ne rastin tim row sherben si container,
+dhe duke u siguruar qe min-widthi ii kolonave te jete 300px, jo me pak.
+Kur ekrani te jete me i madh kolonat do te behen zgjerohen por nuk kam percaktuar nje madhesi fikse
+por duke perdorur 1fr sigurohem qe widthi i tyre te jete i barabarte, duke ndare hapesiren available
+ne permasa te barabarta.
+Gjithashtu tek funksioni repeat kam perdorur auto-fit ne vend te auto-fill, pra 
+gridi krijon aq kolona sa mund te pershaten ne nje hapesire sepse
+kur perdor auto-fit:Nese ka hapesire ​​shtese, kolonat/rreshtat do te zgjerohen 
+per ta mbushur ate. 
+Nese nuk ka hapesire ​​te mjaftueshme, ato do te tkurren per tu pershtatur.
+
+
+
