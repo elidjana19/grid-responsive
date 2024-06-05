@@ -10,7 +10,7 @@ pavaresisht ekranit.
 
 * Pa perdorur media queries
 Ne rastin e dyte per te bere responsive grid-in nuk kam perdorur media queries
-por .row perseri do te kete display:flex, nepemjet rreshtit 
+por .row perseri do te kete display:grid, nepemjet rreshtit 
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
 Gridi nuk e ka te percaktuar sa kolona krijon ketu, ai krijon aq sa mund te vendosen tek hapesira available 
 pra ne baze te gjeresise te containerit ne rastin tim row sherben si container,
