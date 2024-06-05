@@ -1,0 +1,9 @@
+NE html kam krijuar nje div qe perfaqeson 1 rresht dhe 4 div-e brenda 
+tij si kolona, secila mban disa foto. Nepemjet grid duhet 
+qe keto foto te shfaqen ne menyre responsive ne ekrane te ndryshme
+Ne ekrane te medha kam vendosur te krijoj 4 kolona qe te shfaqen fotot.
+Kur madhesia e ekranit fillon e ulet edhe nr i kolonave do te zvogelohet, duke 
+kerkuar mbi madhesite e ekraneve, bera qe te shfaqen 3, 2 dhe per ekranet e vogla
+si mobile 1 kolone me foto.
+Duke perdorur 1fr kujdesem qe kolonat te kene te njejtin width 
+pavaresisht ekranit.
